@@ -2148,7 +2148,7 @@ head(Chronic_Conditions_Wave9)
 
 Diseases <- list(Chronic_Conditions_Wave4, Chronic_Conditions_Wave5, 
                  Chronic_Conditions_Wave6, Chronic_Conditions_Wave7,
-                 Chronic_Conditions_Wave8, Chronic_Conditions_Wave9, Weights) %>% 
+                 Chronic_Conditions_Wave8, Chronic_Conditions_Wave9) %>% 
   reduce(inner_join, by = "idauniq")
 head(Diseases)
 
